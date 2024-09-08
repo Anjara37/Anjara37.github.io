@@ -37,9 +37,6 @@ function setUserName() {
     setUserName();
   } else {
     let storedName = localStorage.getItem('nom');
-    myHeading.addEventListener('click', function() {
-      myHeading.textContent = 'On y va ' + storedName;
-    });  
     myHeading.textContent = 'Mozilla est cool, ' + storedName;
   };
 
