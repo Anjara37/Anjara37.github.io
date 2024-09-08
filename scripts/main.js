@@ -1,13 +1,13 @@
 let myHeading = document.querySelector('h1');
 myHeading.textContent = 'Bonjour, monde !';
-let myVariable = 'Veuillez vous connecter en appuyant sur le boutton en bas de la page😊';
+let myVariable = 'Bob';
 myHeading.addEventListener('click', function() {
 
     if (myHeading.textContent === 'Bonjour, monde !') {
     myHeading.textContent= myVariable;
     
 } else {
-    myHeading.textContent = 'Vous etes sur le chemin de l\'intelligence';
+    myHeading.textContent = 'Bonjour, monde!';
     
 }});
 
