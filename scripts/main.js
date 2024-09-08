@@ -1,6 +1,6 @@
 let myHeading = document.querySelector('h1');
 myHeading.textContent = 'Bonjour, monde !';
-let myVariable = 'Bob';
+let myVariable = 'Veuillez vous connecter en appyillant sur le boutton en bas de la page😊';
 myHeading.addEventListener('click', function() {
 
     if (myHeading.textContent === 'Bonjour, monde !') {
